@@ -10,7 +10,9 @@
   "workspaces": [
     "packages/**"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "nx run-many --target=test"
+  },
   "dependencies": {
     "tslib": "^2.3.0"
   },

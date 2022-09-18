@@ -1,5 +1,14 @@
 {
   "name": "stede",
   "version": "0.0.1",
-  "type": "commonjs"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forivall/stede.git",
+    "directory": "packages/stede"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
 }

@@ -15,5 +15,10 @@
       "stede": ["packages/stede/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "ts-node": {
+    "experimentalResolver": true,
+    "preferTsExts": true,
+    "transpileOnly": true
+  }
 }
